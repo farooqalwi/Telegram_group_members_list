@@ -48,4 +48,3 @@ for member in client.iter_participants('membersTesting', 3):
 # putting list to obtain result.json file
 with open('custom_result.json', 'w', encoding='utf-8') as file:
     json.dump(json_list, file, ensure_ascii=False, indent=1)
-
